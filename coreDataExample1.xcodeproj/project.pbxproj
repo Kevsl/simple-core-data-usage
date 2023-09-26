@@ -14,6 +14,7 @@
 		0AA12EE02AC2BA2900A85883 /* coreDataExample1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AA12EDE2AC2BA2900A85883 /* coreDataExample1.xcdatamodeld */; };
 		0AA12EE22AC2BA2A00A85883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA12EE12AC2BA2A00A85883 /* Assets.xcassets */; };
 		0AA12EE52AC2BA2A00A85883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA12EE32AC2BA2A00A85883 /* LaunchScreen.storyboard */; };
+		0AA12EEF2AC2BC6B00A85883 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA12EEE2AC2BC6B00A85883 /* CoreDataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0AA12EE12AC2BA2A00A85883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AA12EE42AC2BA2A00A85883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AA12EE62AC2BA2A00A85883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA12EEE2AC2BC6B00A85883 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 		0AA12ED42AC2BA2900A85883 /* coreDataExample1 */ = {
 			isa = PBXGroup;
 			children = (
+				0AA12EED2AC2BA3B00A85883 /* Controller */,
+				0AA12EEC2AC2BA3600A85883 /* Model */,
 				0AA12ED52AC2BA2900A85883 /* AppDelegate.swift */,
 				0AA12ED72AC2BA2900A85883 /* SceneDelegate.swift */,
 				0AA12ED92AC2BA2900A85883 /* ViewController.swift */,
@@ -68,6 +72,21 @@
 				0AA12EDE2AC2BA2900A85883 /* coreDataExample1.xcdatamodeld */,
 			);
 			path = coreDataExample1;
+			sourceTree = "<group>";
+		};
+		0AA12EEC2AC2BA3600A85883 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AA12EEE2AC2BC6B00A85883 /* CoreDataHelper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AA12EED2AC2BA3B00A85883 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA12EEF2AC2BC6B00A85883 /* CoreDataHelper.swift in Sources */,
 				0AA12EDA2AC2BA2900A85883 /* ViewController.swift in Sources */,
 				0AA12EE02AC2BA2900A85883 /* coreDataExample1.xcdatamodeld in Sources */,
 				0AA12ED62AC2BA2900A85883 /* AppDelegate.swift in Sources */,
